@@ -43,3 +43,35 @@ body {
 .profile-photo img {
   width: 8rem;
 }
+
+.instagram-continue {
+  display: flex;
+  align-items: center; /*horizontal*/
+  justify-content: space-around; /*vertical*/
+  flex-direction: column; /*inverte a propriedade do align-items e justify-content*/
+  width: 50%;
+  min-height: 34rem;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid lightgrey;
+}
+
+.group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
